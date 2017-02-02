@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_marginTop="1dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_visitado_bandeira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_nome_visitado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_data_visita_lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_nome_visitado"
+            android:layout_marginLeft="9dp"
+            android:textSize="12sp"
+            android:paddingTop="2dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_select_pais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:buttonTint="@color/colorPrimary"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

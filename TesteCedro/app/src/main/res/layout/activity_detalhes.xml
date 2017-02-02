@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalhes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.testecedro.DetalhesActivity">
+
+    <ImageView
+        android:id="@+id/iv_detalhes_bandeira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_detalhes_longname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_detalhes_shortname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/tv_detalhes_apelido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_detalhes_callingcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"/>
+
+    <Button
+        android:id="@+id/bt_pais_visitado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eu já visitei este país"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#32AD32"/>
+
+    <TextView
+        android:id="@+id/tv_data_visita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:paddingBottom="40dp"
+        android:textSize="20sp"
+        android:paddingTop="30dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

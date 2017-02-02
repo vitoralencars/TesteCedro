@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_inf_paises"
+        android:title="Todos países"
+        android:icon="@drawable/ic_planeta_24dp"/>
+
+    <item
+        android:id="@+id/menu_inf_visitados"
+        android:title="Visitados"
+        android:icon="@drawable/ic_visitados_24dp"/>
+
+    <item
+        android:id="@+id/menu_inf_perfil"
+        android:title="Perfil"
+        android:icon="@drawable/ic_perfil_24dp"/>
+
+</menu>
